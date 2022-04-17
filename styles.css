@@ -1,9 +1,12 @@
 /* globals */
+html {
+  height: 100%;
+}
 body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin: 50px auto;
+  margin: 50px auto 0px auto;
   max-width: 1200px;
 }
 /* links */
@@ -85,7 +88,6 @@ a:hover {
   }
 }
 
-
 /* work */
 #work {
   width: 100%;
@@ -96,4 +98,10 @@ a:hover {
     flex-direction: column;
     margin-top: 0px;
   }
+}
+
+/* other links */
+.other-links h2 {
+  font-size: small;
+  margin-top: 50px;
 }
