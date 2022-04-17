@@ -4,16 +4,54 @@ body {
   justify-content: center;
   flex-direction: column;
   margin: 50px auto;
-  max-width: 900px;
+  max-width: 1200px;
+}
+/* links */
+a {
+  font-weight: bold;
+  padding: 3px;
+}
+a:hover {
+  background-color: #FFFB8F;
+}
+a:link {
+  color: black;
 }
 a:visited {
   color: black;
 }
-.no-bull {
-  list-style-type: none;
+a:hover {
+  color: black;
 }
-.li-date {
-  margin-top: 20px;
+/* groups  */
+.vertical-line {
+  border: 1px solid lightgray;
+}
+.horizontal-line {
+  margin-top: 50px;
+  width: 45%;
+  border: 1px solid lightgray;
+}
+.section-group {
+  display: flex;
+}
+.section {
+  width: 100%;
+}
+.section h2 {
+  font-size: x-large;
+  text-align: center;
+}
+@media (max-width:1000px){
+  .vertical-line {
+    border: 0px solid black;
+  }
+  .section-group {
+    flex-direction: column;
+  }
+  .section h2 {
+    text-align: left;
+  }
 }
 
 /* header */
@@ -28,33 +66,34 @@ a:visited {
 .job-title{
   text-align: center;
   font-size: medium;
-  margin: 50px 0px 50px 0px;
+  margin: 25px 0px 50px 0px;
 }
 
-/* media */
-#media {
+/* line group */
+.line-group {
   display: flex;
 }
-#media h2 {
-  font-size: x-large;
-  text-align: center;
+.line-group .horizontal-line:nth-child(2) {
+  margin-left: auto;
 }
-.line-break {
-  border: 1px solid lightgray;
+@media (max-width:1000px){
+  .line-group {
+    display: none;
+  }
+  .horizontal-line {
+    border: 0px solid black;
+  }
 }
-.written-work {
-  width: 100%;
-}
-.presentations {
-  width: 100%;
-}
+
 
 /* work */
 #work {
   width: 100%;
   margin-top: 50px;
 }
-#work h2 {
-  font-size: x-large;
-  text-align: center;
+@media (max-width:1000px){
+  #work {
+    flex-direction: column;
+    margin-top: 0px;
+  }
 }
