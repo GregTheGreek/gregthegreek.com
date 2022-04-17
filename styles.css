@@ -1,0 +1,60 @@
+/* globals */
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 50px auto;
+  max-width: 900px;
+}
+a:visited {
+  color: black;
+}
+.no-bull {
+  list-style-type: none;
+}
+.li-date {
+  margin-top: 20px;
+}
+
+/* header */
+.title {
+  text-align: center;
+  font-size: xx-large;
+}
+.sub-title {
+  text-align: center;
+  font-size: medium;
+}
+.job-title{
+  text-align: center;
+  font-size: medium;
+  margin: 50px 0px 50px 0px;
+}
+
+/* media */
+#media {
+  display: flex;
+}
+#media h2 {
+  font-size: x-large;
+  text-align: center;
+}
+.line-break {
+  border: 1px solid lightgray;
+}
+.written-work {
+  width: 100%;
+}
+.presentations {
+  width: 100%;
+}
+
+/* work */
+#work {
+  width: 100%;
+  margin-top: 50px;
+}
+#work h2 {
+  font-size: x-large;
+  text-align: center;
+}
