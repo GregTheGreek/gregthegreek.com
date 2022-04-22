@@ -71,6 +71,11 @@ a:hover {
   font-size: medium;
   margin: 25px 0px 50px 0px;
 }
+.chainsafe-logo {
+  height: 20px;
+  width: 20px;
+  padding-left: 5px;
+}
 
 /* line group */
 .line-group {
@@ -101,7 +106,21 @@ a:hover {
 }
 
 /* other links */
+.other-links {
+  margin: 0px 20px 0px 20px;
+}
 .other-links h2 {
   font-size: small;
   margin-top: 50px;
+}
+.other-links-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.easter-egg {
+  color: white;
+}
+.easter-egg:hover {
+  color: #FFFB8F;
 }
