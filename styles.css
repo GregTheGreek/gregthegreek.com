@@ -69,7 +69,12 @@ a:hover {
 .job-title{
   text-align: center;
   font-size: medium;
-  margin: 25px 0px 50px 0px;
+}
+.title-top {
+  margin 50px 0px 0px 0px;
+}
+.title-bottom {
+  margin 0px 0px 50px 0px;
 }
 .chainsafe-logo {
   height: 20px;
